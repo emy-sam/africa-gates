@@ -1,0 +1,20 @@
+{
+  "header": {
+    "nav": {
+      "menu": {
+        "about": "",
+        "career": "",
+        "development": "",
+        "product": {
+          "title": "",
+          "posts": "",
+          "centrals": ""
+        }
+      },
+      "float": {
+        "centrale": "",
+        "pieces": ""
+      }
+    }
+  }
+}

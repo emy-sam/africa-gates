@@ -1,0 +1,24 @@
+{
+  "plants": {
+    "title": "Postes",
+    "description": ""
+  },
+  "asphalts": {
+    "title": "Postes d'enrobage"
+  },
+  "concretes": {
+    "title": "Centrales à béton"
+  },
+  "items": {
+    "batch_stationary": "Discontinu fixe",
+    "batch_mobile": "Discontinu mobile",
+    "continuous_stationary": "Continu fixe",
+    "continuous_mobile": "Continu mobile",
+    "core_components": "Composants principaux",
+    "complementary_products": "Produits complémentaires",
+    "concrete_mixing_plants": "Centrales de malaxage du béton",
+    "concrete_mixers": "Malaxeurs à béton",
+    "linear_storage_bins": "Bacs de stockage linéaires",
+    "radial_scrapers": "Racloirs radiaux"
+  }
+}

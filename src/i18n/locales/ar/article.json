@@ -1,0 +1,24 @@
+{
+  "plants": {
+    "title": "المحطات",
+    "description": ""
+  },
+  "asphalts": {
+    "title": "محطات الأسفلت"
+  },
+  "concretes": {
+    "title": "محطات الخرسانة"
+  },
+  "items": {
+    "batch_stationary": "دفعات ثابتة",
+    "batch_mobile": "دفعات متنقلة",
+    "continuous_stationary": "مستمر ثابت",
+    "continuous_mobile": "مستمر متنقل",
+    "core_components": "المكونات الرئيسية",
+    "complementary_products": "منتجات تكميلية",
+    "concrete_mixing_plants": "محطات خلط الخرسانة",
+    "concrete_mixers": "خلاطات الخرسانة",
+    "linear_storage_bins": "صناديق التخزين الخطية",
+    "radial_scrapers": "كاشطات شعاعية"
+  }
+}

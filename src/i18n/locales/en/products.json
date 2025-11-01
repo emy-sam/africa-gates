@@ -1,0 +1,70 @@
+{
+  "back": "Back",
+  "specifications": {
+    "title": "Specifications",
+    "High": "High shear mill – 1500 rpm. Soft starter controlled",
+    "Heated": "Heated tanks on load cell weighing systems",
+    "Graphite": "Graphite based soft seals for mill with water cooling system",
+    "Inverter": "Inverter controlled mill feeding pump with 50 m³/h capacity ",
+    "Pneumatic": "Pneumatic valves in all piping",
+    "Gathering": "Gathering conveyor belt and drive",
+    "capacity": "7 m³ batch tank capacity with 60mm rock-wool insulation, heating lines and dual agitators",
+    "Touch": "Touch screen monitor for full automatic operation",
+    "Statistical": "Statistical data reporting and archiving"
+  },
+  "gallery": {
+    "precisionControl": "Precision Control",
+    "ecoFriendlyOperations": "Eco-Friendly Operations",
+    "versatileApplication": "Versatile Application"
+  },
+  "advantages": { "title": "Advantages" },
+  "brochures": {
+    "title": "Support & Download",
+    "product": "Product Range Brochure",
+    "complementary": "Complementary Products Brochure"
+  },
+  "categories": {
+    "batch-stationary": {
+      "hero": {
+        "title": "Batch Asphalt-Mixing Plants",
+        "description": "Innovative Solutions for High-Quality Asphalt Production"
+      },
+      "section": {
+        "title": "Consistent from Start to Finish",
+        "description": "AGCP batch plants provide the consistency that is crucial to mix quality. All plant processes and components are carefully developed to ensure that feeding, heating, drying, screening and mixing seamlessly blend together. Helping integrate all the moving parts is the as 1 Control System, which provides leading technology with a user-friendly interface."
+      }
+    },
+    "batch-mobile": {
+      "hero": {
+        "title": "Batch Asphalt-Mixing Plants",
+        "description": "Innovative Solutions for High-Quality Asphalt Production"
+      },
+      "section": {
+        "title": "Consistent from Start to Finish",
+        "description": "AGCP batch plants provide the consistency that is crucial to mix quality. All plant processes and components are carefully developed to ensure that feeding, heating, drying, screening and mixing seamlessly blend together. Helping integrate all the moving parts is the as 1 Control System, which provides leading technology with a user-friendly interface."
+      }
+    }
+  },
+  "products": {
+    "abm-easybatch": {
+      "title": "ABM EASYBATCH",
+      "description": "Innovative Solutions for High-Quality Asphalt Production"
+    },
+    "abt-speedybatch": {
+      "title": "ABT SPEEDYBATCH",
+      "description": "Innovative Solutions for High-Quality Asphalt Production"
+    },
+    "abp-hrt": {
+      "title": "ABP HRT",
+      "description": "Innovative Solutions for High-Quality Asphalt Production"
+    },
+    "abp-universal": {
+      "title": "ABP UNIVERSAL",
+      "description": "Innovative Solutions for High-Quality Asphalt Production"
+    }
+  },
+  "info": {
+    "Production capacity": "Production capacity",
+    "Mixer size": "Mixer size"
+  }
+}

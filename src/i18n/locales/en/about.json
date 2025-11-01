@@ -1,0 +1,35 @@
+{
+  "header": {
+    "title": "About AGCP",
+    "description": "AGCP is a company that supplies asphalt plants, machinery, and services to the construction industry, with core expertise in road construction and transportation infrastructure."
+  },
+  "team": {
+    "title": "Founder of AGCP",
+    "description": "Our team is made up of experienced professionals passionate about the construction industry. Meet the founding members of AGCP."
+  },
+  "mission": {
+    "title": "OUR Missions",
+    "description": {
+      "before": "At ",
+      "after": ", we are committed to providing innovative and sustainable solutions for the construction industry. Our mission is to support our clients in delivering road infrastructure projects by offering high-performance equipment and quality service."
+    }
+  },
+  "services": {
+    "title": "OUR Services",
+    "description": "Thanks to our expertise and commitment, we contribute to the modernization of transportation infrastructure by providing reliable, durable, and industry-compliant solutions.",
+    "title1": "Supply of asphalt plants",
+    "title2": "Sale of machines and equipment",
+    "title3": "Maintenance and technical support",
+    "title4": "Customized solutions",
+    "title5": "Training and support",
+    "description1": "Design and installation of modern, high-performance asphalt plants.",
+    "description2": "A wide range of equipment for road construction, including pavers, compactors, and concrete plants.",
+    "description3": "Responsive after-sales service to ensure proper functioning of the equipment.",
+    "description4": "Study and development of solutions tailored to the specific needs of infrastructure projects.",
+    "description5": "Training programs to optimize equipment use and ensure safety on construction sites."
+  },
+  "marque": {
+    "title": "OUR Brands",
+    "description": "We have collaborated with various brands to provide high-quality solutions in the industry."
+  }
+}

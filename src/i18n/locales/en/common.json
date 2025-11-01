@@ -1,0 +1,79 @@
+{
+  "showLess": "Show less",
+  "showMore": "Show more",
+  "details": "See Details",
+  "order": "Order",
+  "shortcut": {
+    "find": "Find Us",
+    "whats": "Call Us (WhatsApp)",
+    "contact": "Contact Us",
+    "spares": "Spare Parts"
+  },
+  "header": {
+    "nav": {
+      "menu": {
+        "about": "About Us",
+        "career": "Career",
+        "development": "Sustainable Development",
+        "product": {
+          "title": "Product",
+          "posts": "Asphalt Plants",
+          "centrals": "Concrete Plants"
+        }
+      },
+      "float": {
+        "centrale": "Plant",
+        "pieces": "Spare Parts"
+      }
+    }
+  },
+  "discover": {
+    "title": "Interested in second-hand equipment?",
+    "description": "Buying a used construction machine or asphalt plant is a matter of trust. By choosing AGCP as your partner, you’ve made the right decision.",
+    "button": "Discover the world of AGCP now"
+  },
+  "contact": {
+    "title": "Get in touch with us to meet a sales representative near you",
+    "policy": "By submitting this form, you acknowledge that you have read and accepted our data protection policy.",
+    "order": "Order",
+    "button": {
+      "label": "Contact AGCP",
+      "placeholder": "Contact AGCP"
+    },
+    "firstname": {
+      "label": "First Name",
+      "placeholder": "Enter your first name"
+    },
+    "lastname": {
+      "label": "Last Name",
+      "placeholder": "Enter your last name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email address"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Enter your phone"
+    },
+    "zipCode": {
+      "label": "Postal Code",
+      "placeholder": "Enter your postal code"
+    },
+    "country": {
+      "label": "Country",
+      "placeholder": "Select your country"
+    },
+    "notes": {
+      "label": "Comments",
+      "placeholder": "Enter your comment"
+    }
+  },
+  "footer": {
+    "contactUs": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "description": "AGCP is a leader in construction equipment. We offer innovative solutions for your projects."
+  }
+}

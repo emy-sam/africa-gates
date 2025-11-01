@@ -1,0 +1,24 @@
+{
+  "plants": {
+    "title": "Plants",
+    "description": ""
+  },
+  "asphalts": {
+    "title": "Asphalt Plants"
+  },
+  "concretes": {
+    "title": "Concrete Plants"
+  },
+  "items": {
+    "batch_stationary": "Batch Stationary",
+    "batch_mobile": "Batch Mobile",
+    "continuous_stationary": "Continuous Stationary",
+    "continuous_mobile": "Continuous Mobile",
+    "core_components": "Core Components",
+    "complementary_products": "Complementary Products",
+    "concrete_mixing_plants": "Concrete-Mixing Plants",
+    "concrete_mixers": "Concrete Mixers",
+    "linear_storage_bins": "Linear Storage Bins",
+    "radial_scrapers": "Radial Scrapers"
+  }
+}

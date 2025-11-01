@@ -1,0 +1,35 @@
+{
+  "header": {
+    "title": "A propos d'AGCP",
+    "description": "AGCP est une entreprise de la fourniture de postes d’enrobage, machines et services à l’industrie de la construction, avec une expertise fondamentale dans la construction routière et les infrastructures de transport."
+  },
+  "team": {
+    "title": "Fondateur d'AGCP",
+    "description": "Notre équipe est composée de professionnels expérimentés et passionnés par l’industrie de la construction. Découvrez les membres fondateurs d’AGCP."
+  },
+  "mission": {
+    "title": "NOS Missions",
+    "description": {
+      "before": "Chez ",
+      "after": ", nous nous engageons à fournir des solutions innovantes et durables pour l’industrie de la construction. Notre mission est d’accompagner nos clients dans la réalisation de projets d’infrastructure routière en leur offrant des équipements performants et un service de qualité."
+    }
+  },
+  "services": {
+    "title": "NOS Services",
+    "description": "Grâce à notre expertise et notre engagement, nous contribuons à la modernisation des infrastructures de transport, en assurant des solutions fiables, durables et adaptées aux exigences du secteur.",
+    "title1": "Fourniture de postes d’enrobage",
+    "title2": "Vente de machines et équipements",
+    "title3": "Maintenance et assistance technique",
+    "title4": "Solutions sur mesure",
+    "title5": "Formation et accompagnement",
+    "description1": "Conception et installation de centrales d’enrobage modernes et performantes.",
+    "description2": "Une large gamme de matériel pour la construction routière, incluant des finisseurs, compacteurs et centrales à béton.",
+    "description3": "Un service après-vente réactif pour assurer le bon fonctionnement des équipements.",
+    "description4": "Étude et développement de solutions adaptées aux besoins spécifiques des projets d’infrastructure.",
+    "description5": "Programmes de formation pour optimiser l’utilisation des équipements et garantir la sécurité sur les chantiers."
+  },
+  "marque": {
+    "title": "NOS Marques",
+    "description": "Nous avons collaboré avec diverses marques pour fournir des solutions de haute qualité dans l'industrie."
+  }
+}

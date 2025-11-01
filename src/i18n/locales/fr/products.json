@@ -1,0 +1,70 @@
+{
+  "back": "Retour",
+  "specifications": {
+    "title": "Spécifications",
+    "High": "Broyeur à cisaillement élevé – 1500 tr/min. Contrôlé par démarreur progressif",
+    "Heated": "Cuves chauffées sur systèmes de pesée à cellule de charge",
+    "Graphite": "Joints souples à base de graphite pour le broyeur avec système de refroidissement à eau",
+    "Inverter": "Pompe d'alimentation du broyeur contrôlée par variateur, capacité de 50 m³/h",
+    "Pneumatic": "Vannes pneumatiques dans toute la tuyauterie",
+    "Gathering": "Convoyeur de collecte et entraînement",
+    "capacity": "Cuve de mélange de 7 m³ avec isolation en laine de roche de 60 mm, lignes de chauffage et double agitateur",
+    "Touch": "Écran tactile pour un fonctionnement entièrement automatique",
+    "Statistical": "Rapports et archivage des données statistiques"
+  },
+  "gallery": {
+    "precisionControl": "Contrôle de précision",
+    "ecoFriendlyOperations": "Fonctionnement écologique",
+    "versatileApplication": "Application polyvalente"
+  },
+  "advantages": { "title": "Avantages" },
+  "brochures": {
+    "title": "Support & Téléchargement",
+    "product": "Brochure de la gamme de produits",
+    "complementary": "Brochure des produits complémentaires"
+  },
+  "categories": {
+    "batch-stationary": {
+      "hero": {
+        "title": "Usines de malaxage d’enrobé en discontinu",
+        "description": "Solutions innovantes pour une production d’enrobé de haute qualité"
+      },
+      "section": {
+        "title": "Régularité du début à la fin",
+        "description": "Les centrales d’enrobage en discontinu AGCP offrent la régularité essentielle à la qualité du mélange. Tous les processus et composants de l’installation sont soigneusement conçus pour garantir une parfaite synergie entre l’alimentation, le chauffage, le séchage, le criblage et le malaxage. Pour intégrer harmonieusement tous ces éléments, le système de contrôle as 1 fournit une technologie de pointe avec une interface conviviale."
+      }
+    },
+    "batch-mobile": {
+      "hero": {
+        "title": "Usines de malaxage d’enrobé en discontinu",
+        "description": "Solutions innovantes pour une production d’enrobé de haute qualité"
+      },
+      "section": {
+        "title": "Régularité du début à la fin",
+        "description": "Les centrales d’enrobage en discontinu AGCP offrent la régularité essentielle à la qualité du mélange. Tous les processus et composants de l’installation sont soigneusement conçus pour garantir une parfaite synergie entre l’alimentation, le chauffage, le séchage, le criblage et le malaxage. Pour intégrer harmonieusement tous ces éléments, le système de contrôle as 1 fournit une technologie de pointe avec une interface conviviale."
+      }
+    }
+  },
+  "products": {
+    "abm-easybatch": {
+      "title": "ABM EASYBATCH",
+      "description": "Solutions innovantes pour une production d’enrobé de haute qualité"
+    },
+    "abt-speedybatch": {
+      "title": "ABT SPEEDYBATCH",
+      "description": "Solutions innovantes pour une production d’enrobé de haute qualité"
+    },
+    "abp-hrt": {
+      "title": "ABP HRT",
+      "description": "Solutions innovantes pour une production d’enrobé de haute qualité"
+    },
+    "abp-universal": {
+      "title": "ABP UNIVERSAL",
+      "description": "Solutions innovantes pour une production d’enrobé de haute qualité"
+    }
+  },
+  "info": {
+    "Production capacity": "Capacité de production",
+    "Mixer size": "Taille du malaxeur"
+  }
+}

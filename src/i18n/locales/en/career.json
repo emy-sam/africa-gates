@@ -1,0 +1,20 @@
+{
+  "title": "Career",
+  "header": "Would you like to work for an international company with locations around the world?",
+  "subheader": "Or do you prefer a smaller company where you can truly make an impact in your environment?",
+  "body": {
+    "title": "Welcome to AGCP, where both are possible.",
+    "section1": {
+      "title": "Development and Growth",
+      "description": "At AGCP, we believe every team member can make a difference. We offer career paths tailored to your needs and level of development. We also provide job opportunities where you can grow and develop a true sense of achievement."
+    },
+    "section2": {
+      "title": "International Environment",
+      "description": "We are an international company based in Tunisia. Members of our diverse teams exchange and share ideas to find the best solutions for our clients. With our global presence, we offer not only exposure to different cultures but also international career opportunities."
+    },
+    "section3": {
+      "title": "Independent Family Business",
+      "description": "As a family-owned and independent company, we promote long-term commitments with both our clients and employees. We don’t measure success quarterly, but aim for sustainable growth. We are committed for the long term."
+    }
+  }
+}
