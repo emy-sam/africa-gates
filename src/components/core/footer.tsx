@@ -1,9 +1,39 @@
+'use client';
+
 import Image from 'next/image';
 import { Facebook, Youtube, Linkedin, Instagram } from 'lucide-react';
-import { getFixedT } from 'i18next';
+import i18n from 'i18next';
+import { initReactI18next, useTranslation } from 'react-i18next';
+import commonEn from '@/i18n/locales/en/common.json';
+import commonFr from '@/i18n/locales/fr/common.json';
+import commonAr from '@/i18n/locales/ar/common.json';
+
+if (!i18n.isInitialized) {
+  i18n.use(initReactI18next).init({
+    lng: 'en',
+    fallbackLng: 'en',
+    supportedLngs: ['en', 'fr', 'ar'],
+    ns: ['common'],
+    defaultNS: 'common',
+    resources: {
+      en: { common: commonEn },
+      fr: { common: commonFr },
+      ar: { common: commonAr },
+    },
+    interpolation: { escapeValue: false },
+    react: { useSuspense: false },
+    // ✅ Proper handler with correct signature
+    overloadTranslationOptionHandler(args: string[]): Record<string, unknown> {
+      return { defaultValue: args[1] };
+    },
+  });
+}
 
 export default function Footer({ locale }: { locale: string }) {
-  const t = getFixedT(locale, 'common');
+  const { t } = useTranslation('common', { i18n });
+
+  i18n.changeLanguage(locale);
+
   return (
     <footer className="bg-black p-10 text-white">
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 md:grid-cols-3">
@@ -26,32 +56,16 @@ export default function Footer({ locale }: { locale: string }) {
         <div className="text-center md:text-end">
           <p className="mb-4">{t('footer.description')}</p>
           <div className="flex justify-center space-x-4 md:justify-end">
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
               <Facebook className="h-6 w-6 hover:text-yellow-500" />
             </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
               <Instagram className="h-6 w-6 hover:text-yellow-400" />
             </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-6 w-6 hover:text-yellow-600" />
             </a>
-            <a
-              href="https://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
               <Youtube className="h-6 w-6 hover:text-yellow-600" />
             </a>
           </div>

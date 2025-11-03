@@ -1,5 +1,7 @@
 'use client';
-import React from 'react';
+
+import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { initI18n } from '@/i18n/server';
 import FullScreenImage from '@/components/core/header/FullScreenImage';
 
@@ -30,14 +32,28 @@ const brands = [
   { name: 'ABG', img: '/about/brands/abg.png' },
 ];
 
-const About = async ({ params }: { params: Promise<{ locale: string }> }) => {
-  const { locale } = await params;
-  const i18n = await initI18n(locale, ['about']);
-  const t = i18n.getFixedT(locale, 'about');
+interface AboutProps {
+  params: { locale: string };
+}
+
+const About = ({ params }: AboutProps) => {
+  // ✅ Define proper type for t (translation function)
+  const [t, setT] = useState<((key: string) => string) | null>(null);
+
+  // ✅ Load translations dynamically on client side
+  useEffect(() => {
+    const loadTranslations = async () => {
+      const i18n = await initI18n(params.locale, ['about']);
+      setT(() => i18n.getFixedT(params.locale, 'about'));
+    };
+    loadTranslations();
+  }, [params.locale]);
+
+  if (!t) return <div className="p-10 text-center">Loading...</div>;
 
   return (
     <div className="relative min-h-screen w-full">
-      {/* Section Header avec image plein écran */}
+      {/* Section Header */}
       <FullScreenImage
         image="/about/aboutus2.jpg"
         title={t('header.title')}
@@ -52,18 +68,21 @@ const About = async ({ params }: { params: Promise<{ locale: string }> }) => {
           <p className="mt-4 max-w-lg text-gray-600">{t('team.description')}</p>
         </div>
 
-        {/* Cartes des membres à droite */}
+        {/* Cartes des membres */}
         <div className="flex flex-wrap justify-center gap-6 md:w-1/2">
           {teamMembers.map((member, index) => (
             <div
               key={index}
               className="w-64 rounded-lg bg-gray-800 p-6 text-center shadow-lg"
             >
-              <img
-                src={member.img}
-                alt={member.name}
-                className="mx-auto h-32 w-32 rounded-full object-cover"
-              />
+              <div className="relative mx-auto h-32 w-32">
+                <Image
+                  src={member.img}
+                  alt={member.name}
+                  fill
+                  className="rounded-full object-cover"
+                />
+              </div>
               <h3 className="mt-4 text-xl font-semibold text-white">
                 {member.name}
               </h3>
@@ -77,11 +96,14 @@ const About = async ({ params }: { params: Promise<{ locale: string }> }) => {
       <div className="flex flex-col items-center bg-yellow-400 px-6 py-10 text-black md:flex-row">
         {/* Image à gauche */}
         <div className="flex justify-center md:w-1/2">
-          <img
-            src="/home/mission.jpg"
-            alt="Nos Missions"
-            className="w-full max-w-md rounded-lg shadow-lg"
-          />
+          <div className="relative w-full max-w-md h-64 md:h-auto">
+            <Image
+              src="/home/mission.jpg"
+              alt="Nos Missions"
+              fill
+              className="rounded-lg object-cover shadow-lg"
+            />
+          </div>
         </div>
 
         {/* Texte à droite */}
@@ -101,23 +123,23 @@ const About = async ({ params }: { params: Promise<{ locale: string }> }) => {
           <h2 className="text-3xl font-bold">{t('services.title')}</h2>
           <ul className="mt-4 list-inside list-disc space-y-2">
             <li>
-              <strong>{t('services.title1')} :</strong>{' '}
+              <strong>{t('services.title1')}:</strong>{' '}
               {t('services.description1')}
             </li>
             <li>
-              <strong>{t('services.title2')} :</strong>{' '}
+              <strong>{t('services.title2')}:</strong>{' '}
               {t('services.description2')}
             </li>
             <li>
-              <strong>{t('services.title3')} :</strong>{' '}
+              <strong>{t('services.title3')}:</strong>{' '}
               {t('services.description3')}
             </li>
             <li>
-              <strong>{t('services.title4')} :</strong>{' '}
+              <strong>{t('services.title4')}:</strong>{' '}
               {t('services.description4')}
             </li>
             <li>
-              <strong>{t('services.title5')} :</strong>{' '}
+              <strong>{t('services.title5')}:</strong>{' '}
               {t('services.description5')}
             </li>
           </ul>
@@ -126,11 +148,14 @@ const About = async ({ params }: { params: Promise<{ locale: string }> }) => {
 
         {/* Image à droite */}
         <div className="mt-6 flex justify-center md:mt-0 md:w-1/2">
-          <img
-            src="/home/services.jpg"
-            alt="Nos Services"
-            className="w-full max-w-md rounded-lg shadow-lg"
-          />
+          <div className="relative w-full max-w-md h-64 md:h-auto">
+            <Image
+              src="/home/services.jpg"
+              alt="Nos Services"
+              fill
+              className="rounded-lg object-cover shadow-lg"
+            />
+          </div>
         </div>
       </div>
 
@@ -147,7 +172,14 @@ const About = async ({ params }: { params: Promise<{ locale: string }> }) => {
               key={index}
               className="flex items-center justify-center rounded-3xl bg-white p-4 shadow-md transition-transform hover:scale-105"
             >
-              <img src={brand.img} alt={brand.name} className="h-12" />
+              <div className="relative h-12 w-24">
+                <Image
+                  src={brand.img}
+                  alt={brand.name}
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
           ))}
         </div>

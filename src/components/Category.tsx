@@ -1,12 +1,15 @@
 'use client';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
+import Image from 'next/image';
 
 const Card = ({ title, src }: { title: string; src: string }) => {
   return (
     <div className="flex flex-col items-center gap-5">
       <div className="shadow-white-s rounded-default group flex h-[134px] w-[134px] cursor-pointer items-center justify-center rounded-xl border-2 border-gray-400 bg-white bg-contain bg-no-repeat hover:border-black hover:bg-gray-200">
-        <img
+        <Image
+          alt={title}
+          fill
           src={`/home/products/${src}`}
           className="group:hover:opacity-1 opacity-90"
         />

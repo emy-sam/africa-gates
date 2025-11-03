@@ -6,6 +6,7 @@ import { initI18n } from '@/i18n/server';
 import { getLocalizedLink, localizeObject } from '@/lib/utils';
 import { Clipboard, ChevronLeft } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Product = async ({
   params,
@@ -39,7 +40,7 @@ const Product = async ({
             </div>
           </div>
           <div className="w-1/2">
-            <img src="/products/gallery/abt-speedybatch/gallery1.webp" alt="" />
+            <Image src="/products/gallery/abt-speedybatch/gallery1.webp" alt="" />
           </div>
         </div>
       </section>

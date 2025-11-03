@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 
 const FullScreenImage = ({
   image,
@@ -12,7 +13,7 @@ const FullScreenImage = ({
   return (
     <div className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0">
-        <img className="h-full w-full object-cover" src={image} alt="image" />
+        <Image className="h-full w-full object-cover" src={image} alt="image" />
       </div>
 
       <div className="relative flex h-full flex-col items-center justify-center bg-black bg-opacity-50 text-white">
