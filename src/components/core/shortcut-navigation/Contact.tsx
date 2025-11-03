@@ -2,7 +2,7 @@ import { getFixedT } from 'i18next';
 import ContactForm from './ContactForm';
 import Image from "next/image";
 
-
+// Define a specific type for form fields
 type Fields =
   | 'firstname'
   | 'lastname'
